@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1730A4262DB9E700D2DEF9 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1D1730A3262DB9E700D2DEF9 /* download.jpeg */; };
+		1D1730A7262DB9F000D2DEF9 /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1D1730A6262DB9F000D2DEF9 /* download (1).jpeg */; };
+		1D1730AE262DBDAA00D2DEF9 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1730AB262DBDAA00D2DEF9 /* plus.png */; };
 		1DA86A3B262C65790025F2A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA86A3A262C65790025F2A3 /* AppDelegate.swift */; };
 		1DA86A3D262C65790025F2A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA86A3C262C65790025F2A3 /* SceneDelegate.swift */; };
 		1DA86A3F262C65790025F2A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA86A3E262C65790025F2A3 /* ViewController.swift */; };
 		1DA86A42262C65790025F2A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA86A40262C65790025F2A3 /* Main.storyboard */; };
 		1DA86A44262C657C0025F2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA86A43262C657C0025F2A3 /* Assets.xcassets */; };
 		1DA86A47262C657C0025F2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA86A45262C657C0025F2A3 /* LaunchScreen.storyboard */; };
+		1DA86A56262C7D8D0025F2A3 /* toppng.com-icon-plus-increase-volume-button-add-symbol-icon-535x535.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DA86A55262C7D8D0025F2A3 /* toppng.com-icon-plus-increase-volume-button-add-symbol-icon-535x535.png */; };
+		1DA86A5A262C7FC00025F2A3 /* taskcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA86A59262C7FC00025F2A3 /* taskcell.swift */; };
+		1DA86A5D262C80CE0025F2A3 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA86A5C262C80CE0025F2A3 /* task.swift */; };
+		2E1D01E04E7C1B4FF2D2B0B9 /* Pods_todolist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C46CF489B9CE9D2EAD56ED /* Pods_todolist.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D1730A3262DB9E700D2DEF9 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		1D1730A6262DB9F000D2DEF9 /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
+		1D1730AB262DBDAA00D2DEF9 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = ../../../../Downloads/plus.png; sourceTree = "<group>"; };
 		1DA86A37262C65790025F2A3 /* todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA86A3A262C65790025F2A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DA86A3C262C65790025F2A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		1DA86A43262C657C0025F2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DA86A46262C657C0025F2A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DA86A48262C657C0025F2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA86A55262C7D8D0025F2A3 /* toppng.com-icon-plus-increase-volume-button-add-symbol-icon-535x535.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toppng.com-icon-plus-increase-volume-button-add-symbol-icon-535x535.png"; path = "../../../../Downloads/toppng.com-icon-plus-increase-volume-button-add-symbol-icon-535x535.png"; sourceTree = "<group>"; };
+		1DA86A59262C7FC00025F2A3 /* taskcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskcell.swift; sourceTree = "<group>"; };
+		1DA86A5C262C80CE0025F2A3 /* task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
+		959E7F00E470652FE36B376E /* Pods-todolist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todolist.release.xcconfig"; path = "Target Support Files/Pods-todolist/Pods-todolist.release.xcconfig"; sourceTree = "<group>"; };
+		B3C46CF489B9CE9D2EAD56ED /* Pods_todolist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todolist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E506300F132605E7DA8BD6 /* Pods-todolist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todolist.debug.xcconfig"; path = "Target Support Files/Pods-todolist/Pods-todolist.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1D01E04E7C1B4FF2D2B0B9 /* Pods_todolist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				1DA86A39262C65790025F2A3 /* todolist */,
 				1DA86A38262C65790025F2A3 /* Products */,
+				3B49CCC7890EDC7B722ABA76 /* Pods */,
+				8291A3650323DAA2DD5E8AFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +78,52 @@
 				1DA86A3A262C65790025F2A3 /* AppDelegate.swift */,
 				1DA86A3C262C65790025F2A3 /* SceneDelegate.swift */,
 				1DA86A3E262C65790025F2A3 /* ViewController.swift */,
+				1DA86A59262C7FC00025F2A3 /* taskcell.swift */,
+				1DA86A5F262C80DE0025F2A3 /* model */,
+				1DA86A54262C7A8C0025F2A3 /* resources */,
 				1DA86A40262C65790025F2A3 /* Main.storyboard */,
 				1DA86A43262C657C0025F2A3 /* Assets.xcassets */,
 				1DA86A45262C657C0025F2A3 /* LaunchScreen.storyboard */,
 				1DA86A48262C657C0025F2A3 /* Info.plist */,
 			);
 			path = todolist;
+			sourceTree = "<group>";
+		};
+		1DA86A54262C7A8C0025F2A3 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D1730AB262DBDAA00D2DEF9 /* plus.png */,
+				1D1730A6262DB9F000D2DEF9 /* download (1).jpeg */,
+				1D1730A3262DB9E700D2DEF9 /* download.jpeg */,
+				1DA86A55262C7D8D0025F2A3 /* toppng.com-icon-plus-increase-volume-button-add-symbol-icon-535x535.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		1DA86A5F262C80DE0025F2A3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1DA86A5C262C80CE0025F2A3 /* task.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3B49CCC7890EDC7B722ABA76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4E506300F132605E7DA8BD6 /* Pods-todolist.debug.xcconfig */,
+				959E7F00E470652FE36B376E /* Pods-todolist.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8291A3650323DAA2DD5E8AFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3C46CF489B9CE9D2EAD56ED /* Pods_todolist.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DA86A4B262C657C0025F2A3 /* Build configuration list for PBXNativeTarget "todolist" */;
 			buildPhases = (
+				2D22A46C841201CF1BD2DA11 /* [CP] Check Pods Manifest.lock */,
 				1DA86A33262C65790025F2A3 /* Sources */,
 				1DA86A34262C65790025F2A3 /* Frameworks */,
 				1DA86A35262C65790025F2A3 /* Resources */,
+				A79EFCF4CD038E1AAE3F0BC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +185,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1730AE262DBDAA00D2DEF9 /* plus.png in Resources */,
 				1DA86A47262C657C0025F2A3 /* LaunchScreen.storyboard in Resources */,
+				1DA86A56262C7D8D0025F2A3 /* toppng.com-icon-plus-increase-volume-button-add-symbol-icon-535x535.png in Resources */,
+				1D1730A4262DB9E700D2DEF9 /* download.jpeg in Resources */,
 				1DA86A44262C657C0025F2A3 /* Assets.xcassets in Resources */,
 				1DA86A42262C65790025F2A3 /* Main.storyboard in Resources */,
+				1D1730A7262DB9F000D2DEF9 /* download (1).jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D22A46C841201CF1BD2DA11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-todolist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79EFCF4CD038E1AAE3F0BC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-todolist/Pods-todolist-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-todolist/Pods-todolist-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-todolist/Pods-todolist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1DA86A33262C65790025F2A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA86A5A262C7FC00025F2A3 /* taskcell.swift in Sources */,
 				1DA86A3F262C65790025F2A3 /* ViewController.swift in Sources */,
 				1DA86A3B262C65790025F2A3 /* AppDelegate.swift in Sources */,
 				1DA86A3D262C65790025F2A3 /* SceneDelegate.swift in Sources */,
+				1DA86A5D262C80CE0025F2A3 /* task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +392,7 @@
 		};
 		1DA86A4C262C657C0025F2A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E506300F132605E7DA8BD6 /* Pods-todolist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +412,7 @@
 		};
 		1DA86A4D262C657C0025F2A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959E7F00E470652FE36B376E /* Pods-todolist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
